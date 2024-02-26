@@ -68,7 +68,7 @@ input:checked + .slider:before {
   flex-direction: column;
 }
 
-header>label {
+header > label {
   vertical-align: middle;
   color: hsl(234, 14%, 74%);
 }
@@ -89,6 +89,10 @@ h2 {
 hr,
 section {
   margin: 20px 0;
+}
+
+hr {
+  border-color: hsla(240, 78%, 98%, 0.3);
 }
 
 section {
